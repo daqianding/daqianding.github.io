@@ -1,0 +1,79 @@
+/* 全局基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* 背景颜色 */
+    color: #333; /* 文字颜色 */
+}
+
+/* 让header并列显示 */
+.head-container {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    gap: 20px; /* 头像和文本间距 */
+    background-color: white; /* 头部背景色 */
+    padding: 20px;
+    border-radius: 8px; /* 圆角 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
+
+/* 头像样式 */
+.profile-photo {
+    width: 200px; /* 头像大小 */
+    height: 230px;
+    border-radius: 15px; /* 圆形头像 */
+    object-fit: cover; /* 确保图片不会变形 */
+    border: 3px solid #ddd; /* 添加边框 */
+}
+
+/* 头部文字 */
+.header-text h1 {
+    margin: 0;
+    font-size: 26px;
+    color: #222;
+}
+
+.header-text p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+/* 页面内容样式 */
+section {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 标题样式 */
+h2 {
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+    color: #007acc;
+}
+
+/* Publications 列表 */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
