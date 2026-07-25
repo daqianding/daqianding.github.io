@@ -4,30 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Daqian Ding's Homepage</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=20260725-4">
 </head>
 <body>
     <header>
-        <div class="head-container">
-            <img src="homepage_photo.JPG" alt="Portrait of Daqian Ding" class="profile-photo">
-            <div class="header-text">
-                <h1>Daqian Ding</h1>
-                <p>CDS, the University of Hong Kong</p>
-                <p class="contact-line">Email: daqian dot ding0 at gmail dot com</p>
-            </div>
-        </div>
+        <img src="homepage_photo.JPG" alt="Portrait of Daqian Ding" class="profile-photo">
+        <h1>Daqian Ding</h1>
+        <p>CDS, the University of Hong Kong</p>
+        <p class="contact-line">Email: daqian dot ding0 at gmail dot com</p>
     </header>
-    <div class="section">
-        <p>
-            I am an incoming Ph.D. student at <a href="https://www.cds.hku.hk/" target="_blank">CDS, the University of Hong Kong</a>, advised by Prof. <a href="https://yimingqiu.me/" target="_blank">Yiming Qiu</a>. I work on networking systems and agentic systems.
-        </p>
-        <p>
-            I received my M.S. degree from Shanghai Jiao Tong University, advised by Prof. <a href="https://yibopi.github.io/index.html" target="_blank">Yibo Pi</a>.
-            Previously, I received my B.S. degree from Beijing University of Posts and Telecommunications.
-        </p>
-    </div>
-    <div class="section">
-        <h2>Publications</h2>
+    <main>
+        <section class="section about">
+            <h2>About</h2>
+            <p>
+                I am an incoming Ph.D. student at <a href="https://www.cds.hku.hk/" target="_blank">CDS, the University of Hong Kong</a>, advised by Prof. <a href="https://yimingqiu.me/" target="_blank">Yiming Qiu</a>. I work on networking systems and agentic systems.
+            </p>
+            <p>
+                I received my M.S. degree from Shanghai Jiao Tong University, advised by Prof. <a href="https://yibopi.github.io/index.html" target="_blank">Yibo Pi</a>.
+                Previously, I received my B.S. degree from Beijing University of Posts and Telecommunications.
+            </p>
+        </section>
+        <section class="section publications" id="publications">
+            <h2>Publications</h2>
         <ul>
             <li>
                 <strong><a href="#" target="_blank">Horizon: A Hyper-Edge Observability Engine for Live Streaming Networks</a></strong><br>
@@ -42,7 +40,7 @@
             <li>
                 <strong><a href="ici_measurement.pdf" target="_blank">A First Look at Inter-Cell Interference in the Wild</a></strong><br>
                 <strong>Daqian Ding</strong>, Yibo Pi, Cailian Chen<br>
-                <em>INFOCOM 2026</em>
+                <em>INFOCOM 2026</em> · <a href="https://github.com/SJTU-NetSense-Lab/infocom26-ici-measurement" target="_blank" rel="noopener noreferrer">Code</a>
             </li>
             <li>
                 <strong><a href="hotnets25-RDX.pdf" target="_blank">Remote Direct Code Execution</a></strong><br>
@@ -79,7 +77,9 @@
                     <em>GLOBECOM 2023</em>
                 </li>
             </ul>
-        </details>
-    </div>
+            </details>
+        </section>
+    </main>
+    <footer>© Daqian Ding.</footer>
 </body>
 </html>
