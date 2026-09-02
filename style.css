@@ -98,6 +98,25 @@ header p {
     margin-top: 2rem;
 }
 
+.experience {
+    margin-top: 2rem;
+}
+
+.experience h2 {
+    margin-top: 0;
+}
+
+.experience-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.experience-date {
+    flex: none;
+    color: #6b7280;
+}
+
 .publications h2 {
     margin-top: 0;
 }
@@ -182,6 +201,15 @@ footer {
     .profile-photo {
         width: 3.5rem;
         height: 3.875rem;
+        margin-top: 0.25rem;
+    }
+
+    .experience-item {
+        display: block;
+    }
+
+    .experience-date {
+        display: block;
         margin-top: 0.25rem;
     }
 
